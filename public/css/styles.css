@@ -18,12 +18,13 @@
   background-color: rgba(26, 26, 26, 0.8);
   color: #f2f5f7;
   width: 200px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .btn-custom:hover {
   background-color: #f2f5f7;
   color: rgba(26, 26, 26, 0.8);
-  box-shadow: 3px 3px rgba(26, 26, 26, 0.6);
-  translate: 10px;
+  box-shadow: 1px 3px rgba(26, 26, 26, 0.6);
+  font-weight: bold;
+  transform: translateY(-5px);
 }
