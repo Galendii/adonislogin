@@ -1,5 +1,6 @@
 import React from "react";
 import LoginForm from "../components/LoginForm";
+import RegistrationForm from "../components/RegistrationForm";
 export default function HomePage() {
   return (
     <div className="container">
@@ -9,7 +10,9 @@ export default function HomePage() {
             <div className="col-md-6 col-12">
               <LoginForm />
             </div>
-            <div className="col-md-6 col-12"></div>
+            <div className="col-md-6 col-12">
+              <RegistrationForm />
+            </div>
           </div>
         </div>
       </div>
